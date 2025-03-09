@@ -40,6 +40,17 @@ public class InterfazGrafic extends javax.swing.JFrame {
         jButton8 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
         jButton10 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        jButton16 = new javax.swing.JButton();
+        jButton17 = new javax.swing.JButton();
+        jButton18 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        jButton20 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -128,6 +139,83 @@ public class InterfazGrafic extends javax.swing.JFrame {
             }
         });
 
+        jButton11.setText("f(x)=1/x");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
+
+        jButton12.setText("e^x");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+
+        jButton13.setText("raiz de n");
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
+
+        jButton14.setText("log n");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
+
+        jButton15.setText("sen(x)");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
+
+        jButton16.setText("cos(x)");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
+
+        jButton17.setText("tan(x)");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
+
+        jButton18.setText("Repetir circulo");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
+
+        jButton19.setText("Rombo");
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
+
+        jButton20.setText("Rombo color");
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
+
+        jButton21.setText("Repetir rombo");
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -147,14 +235,33 @@ public class InterfazGrafic extends javax.swing.JFrame {
                             .addComponent(jButton5)
                             .addComponent(jButton1)
                             .addComponent(jButton2)
-                            .addComponent(jButton3))
+                            .addComponent(jButton3)
+                            .addComponent(jButton6))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton9)
+                            .addComponent(jButton18)
                             .addComponent(jButton8)
                             .addComponent(jButton7)
-                            .addComponent(jButton6))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(jButton9)
+                            .addComponent(jButton15)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton19)
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton20)))))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jButton14)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton16)
+                            .addComponent(jButton13)
+                            .addComponent(jButton12)
+                            .addComponent(jButton11)
+                            .addComponent(jButton17)
+                            .addComponent(jButton21))
+                        .addGap(0, 0, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -163,24 +270,39 @@ public class InterfazGrafic extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
-                    .addComponent(jButton7))
+                    .addComponent(jButton7)
+                    .addComponent(jButton11))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton2)
-                    .addComponent(jButton8))
+                    .addComponent(jButton8)
+                    .addComponent(jButton12))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
-                    .addComponent(jButton9))
+                    .addComponent(jButton9)
+                    .addComponent(jButton13))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton4)
-                    .addComponent(jButton10))
+                    .addComponent(jButton10)
+                    .addComponent(jButton14))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton5)
-                    .addComponent(jButton6))
-                .addContainerGap(9, Short.MAX_VALUE))
+                    .addComponent(jButton15)
+                    .addComponent(jButton16))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton6)
+                    .addComponent(jButton17)
+                    .addComponent(jButton18))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton19)
+                    .addComponent(jButton20)
+                    .addComponent(jButton21))
+                .addContainerGap(17, Short.MAX_VALUE))
         );
 
         pack();
@@ -216,19 +338,31 @@ public class InterfazGrafic extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         Graphics panel = jPanel1.getGraphics();
         try{
+            String [] arreglo = {"Rojo", "Azul", "Amarillo"};
             String punto1 = JOptionPane.showInputDialog(this,"Ingrese el punto central");
             String punto2 = JOptionPane.showInputDialog(this,"Ingrese el radio");
-
+            int color = JOptionPane.showOptionDialog(this, "Eligue un color", "Elige--", 0, JOptionPane.QUESTION_MESSAGE, null, arreglo, EXIT_ON_CLOSE);
+            switch(color){
+                case 0:
+                    panel.setColor(Color.red);
+                break;
+                case 1:
+                    panel.setColor(Color.BLUE);
+                break;
+                case 2:
+                    panel.setColor(Color.yellow);
+                break;
+            }
+            
             String[] p1 = punto1.split(",");
-
+            
             int x1 = Integer.parseInt(p1[0]);
             int y1 = Integer.parseInt(p1[1]);
             
             int radio = Integer.parseInt(punto2);
-            int radio2 = radio/2;
+            int radio2 = radio*2;
             
-            panel.setColor(Color.BLUE);
-            panel.drawOval(250+x1-radio2, 250-y1-radio2, radio, radio);
+            panel.drawOval(250+x1-radio, 250-y1-radio, radio2, radio2);
         }
         catch(Exception e){
            JOptionPane.showMessageDialog(this, "Ingrese la informacion correcta"); 
@@ -412,13 +546,373 @@ public class InterfazGrafic extends javax.swing.JFrame {
         }
         
     }//GEN-LAST:event_jButton9ActionPerformed
+    //e^x
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        Graphics panel = jPanel1.getGraphics();
+        panel.setColor(Color.blue);
+        try{
+                
+        for(int x = -5; x <=5; x++){
+            int y = (int) (Math.pow(Math.E, x)*50);
+            panel.fillOval(250-3 + x*50, 250-3 - y, 6, 6);
+        }
+        }
+        catch(Exception e){
+            JOptionPane.showMessageDialog(this, "Ingrese los datos correctamente");
+        }
+    }//GEN-LAST:event_jButton12ActionPerformed
+       //f(x)=1/x
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        Graphics panel = jPanel1.getGraphics();
+        panel.setColor(Color.blue);
+        try{
+                
+        for(int x = -5; x <=5; x++){
+            if(x==0){
+            continue;
+            }
+            int y = (1/x*50);
+            panel.fillOval(250-3 + x*50, 250-3 - y, 6, 6);
+            
+        }
+        }
+        catch(Exception e){
+            JOptionPane.showMessageDialog(this, "Ingrese los datos correctamente");
+        }
+    }//GEN-LAST:event_jButton11ActionPerformed
+    //raiz n
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        Graphics panel = jPanel1.getGraphics();
+        panel.setColor(Color.blue);
+        String n = JOptionPane.showInputDialog(this, "Ingrese el valor de n para la raíz: ");
+        double N = Double.parseDouble(n);
+    try {
+        boolean esPar = (N % 2 == 0);
+
+        for (int x = 0; x <= 5; x++) {
+            if (x < 0 && esPar) {
+                continue; // Saltar esta iteración
+            }
+            double z = Math.pow(x, 1/N); 
+            int y = (int) (z * 50); // Escalar el valor de z para que se ajuste al gráfico
+            panel.fillOval(250 - 3 + x * 50, 250 - 3 - y, 6, 6); // Dibujar un círculo en (x, y)
+        }
+    } catch (Exception e) {
+        JOptionPane.showMessageDialog(this, "Ingrese los datos correctamente");
+    }
+    try {
+        boolean esPar = (N % 2 == 0);
+
+        for (int x = 0; x <= 5; x++) {
+            if (esPar) {
+                break; // Saltar esta iteración
+            }
+            double z = Math.pow(x, 1/N); // Calcula x^(1/N)
+            int y = (int) (z * -50); // Escalar el valor de z para que se ajuste al gráfico
+            panel.fillOval(250 - 3 + x * -50, 250 - 3 - y, 6, 6); // Dibujar un círculo en (x, y)
+        }
+    } catch (Exception e) {
+        JOptionPane.showMessageDialog(this, "Ingrese los datos correctamente");
+    }
+    
+    }//GEN-LAST:event_jButton13ActionPerformed
+    //log n
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        Graphics panel = jPanel1.getGraphics();
+        panel.setColor(Color.blue);
+        
+    try {
+        String n = JOptionPane.showInputDialog(this, "Ingrese el valor de n para la raíz: ");
+        double N = Double.parseDouble(n);
+        boolean esPar = (N % 2 == 0);
+
+        for (int x = 0; x <= 5; x++) {
+            if (x < 0 && esPar) {
+               
+                continue; 
+            }
+            double z = (Math.log(x))/(Math.log(N)); 
+            int y = (int) (z * 50); 
+            panel.fillOval(250 - 3 + x * 50, 250 - 3 - y, 6, 6); 
+        }
+    } catch (Exception e) {
+        JOptionPane.showMessageDialog(this, "Ingrese los datos correctamente");
+    }
+    }//GEN-LAST:event_jButton14ActionPerformed
+    //sen(x)
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        Graphics panel = jPanel1.getGraphics();
+        panel.setColor(Color.blue);
+        int ESCALAX= 50;
+        int ESCALAY= 50;
+        
+        try{
+            double angulo = 45 * Math.PI/180;
+            for(double x = -250; x <250 ;x+=1) {
+                double y = (Math.sin(x/ESCALAX)*ESCALAY);
+              
+                int x1 = (int)(x+250);
+                int y1 = (int)(250-y);
+                panel.fillOval(x1-3, y1-3, 6, 6);
+            }
+        }catch(Exception e){
+            JOptionPane.showMessageDialog(this, e);
+        }
+    }//GEN-LAST:event_jButton15ActionPerformed
+    //cos(x)
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        Graphics panel = jPanel1.getGraphics();
+        panel.setColor(Color.blue);
+        int ESCALAX= 50;
+        int ESCALAY= 50;
+        
+        try{
+            double angulo = 45 * Math.PI/180;
+            for(double x = -250; x <250 ;x+=1) {
+                double y = (Math.cos(x/ESCALAX)*ESCALAY);
+               
+                int x1 = (int)(x+250);
+                int y1 = (int)(250-y);
+                panel.fillOval(x1-3, y1-3, 6, 6);
+            }
+        }catch(Exception e){
+            JOptionPane.showMessageDialog(this, e);
+        }
+    }//GEN-LAST:event_jButton16ActionPerformed
+    //tan(x)
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        Graphics panel = jPanel1.getGraphics();
+        panel.setColor(Color.blue);
+        int ESCALAX= 50;
+        int ESCALAY= 50;
+        
+        try{
+            double angulo = 45 * Math.PI/180;
+            for(double x = -250; x <250 ;x+=1) {
+                double y = (Math.tan(x/ESCALAX)*ESCALAY);
+                
+                int x1 = (int)(x+250);
+                int y1 = (int)(250-y);
+                panel.fillOval(x1-3, y1-3, 6, 6);
+            }
+        }catch(Exception e){
+            JOptionPane.showMessageDialog(this, e);
+        }
+    }//GEN-LAST:event_jButton17ActionPerformed
+    //Repetir circulo
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        Graphics panel = jPanel1.getGraphics();
+        try{
+            String [] arreglo={"Rojo", "Azul", "Amarillo"};
+            String punto1 = JOptionPane.showInputDialog(this,"Ingrese el punto central");
+            String punto2 = JOptionPane.showInputDialog(this,"Ingrese el radio");
+            String cantidad = JOptionPane.showInputDialog(this, "Ingrese la cantidad de veces a repetir");
+            int color = JOptionPane.showOptionDialog(this, "Eligue un color", "Elige--", 0, JOptionPane.QUESTION_MESSAGE, null, arreglo, EXIT_ON_CLOSE);
+            switch(color){
+                case 0:
+                    panel.setColor(Color.red);
+                break;
+                case 1:
+                    panel.setColor(Color.BLUE);
+                break;
+                case 2:
+                    panel.setColor(Color.yellow);
+                break;
+            }
+            
+            String[] p1 = punto1.split(",");
+            
+            int cantidad1 = Integer.parseInt(cantidad);
+            int x1 = Integer.parseInt(p1[0]);
+            int y1 = Integer.parseInt(p1[1]);
+            
+            int mas = 0;
+            int radio = Integer.parseInt(punto2);
+            
+            for(int i = 0; i<cantidad1; i++){
+                mas+=radio;
+                int radio2 = mas*2;
+                panel.drawOval(250+x1-mas, 250-y1-mas, radio2, radio2);
+            }
+            
+            
+        }
+        catch(Exception e){
+           JOptionPane.showMessageDialog(this, "Ingrese la informacion correcta"); 
+        }
+    }//GEN-LAST:event_jButton18ActionPerformed
+    //rombo
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        Graphics panel = jPanel1.getGraphics();
+        try{
+            String diagonal1 = JOptionPane.showInputDialog(this,"Ingrese diagonal 1");
+            String diagonal2 = JOptionPane.showInputDialog(this,"Ingrese diagonal 2");            
+            
+            int dig1 = Integer.parseInt(diagonal1);
+            int dig2 = Integer.parseInt(diagonal2);
+            
+            int x1 = dig1/2;
+            int y1 = 0;
+            int x2 = 0;
+            int y2 = dig2/2;
+
+            panel.drawLine(250+x1, 250-y1, 250+x2, 250-y2);
+            int x3 = -(dig1/2);
+            int y3 = 0;
+            int x4 = 0;
+            int y4 = -(dig2/2);
+
+            panel.drawLine(250+x3, 250-y3, 250+x4, 250-y4);
+            int x5 = -(dig1/2);
+            int y5 = 0;
+            int x6 = 0;
+            int y6 = (dig2/2);
+
+            panel.drawLine(250+x5, 250-y5, 250+x6, 250-y6);
+            int x7 = (dig1/2);
+            int y7 = 0;
+            int x8 = 0;
+            int y8 = -(dig2/2);
+
+            panel.drawLine(250+x7, 250-y7, 250+x8, 250-y8);
+        }catch(Exception e){
+            JOptionPane.showMessageDialog(this, e);
+        }
+    }//GEN-LAST:event_jButton19ActionPerformed
+    //rombo color
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+        Graphics panel = jPanel1.getGraphics();
+        try{
+            String [] colores = {"Rojo", "Azul", "Amarillo"};
+            String punto = JOptionPane.showInputDialog(this, "Ingrese el punto");
+            String diagonal1 = JOptionPane.showInputDialog(this,"Ingrese diagonal 1");
+            String diagonal2 = JOptionPane.showInputDialog(this,"Ingrese diagonal 2");            
+            String [] p1 = punto.split(",");
+            int color = JOptionPane.showOptionDialog(this, "Eligue un color", "Elige--", 0, JOptionPane.QUESTION_MESSAGE, null, colores, EXIT_ON_CLOSE);
+            
+            switch(color){
+                case 0:
+                    panel.setColor(Color.red);
+                break;
+                case 1:
+                    panel.setColor(Color.BLUE);
+                break;
+                case 2:
+                    panel.setColor(Color.yellow);
+                break;
+            }
+            
+            int dig1 = Integer.parseInt(diagonal1);
+            int dig2 = Integer.parseInt(diagonal2);
+            
+            int x1 = (dig1/2)+Integer.parseInt(p1[0]);
+            int y1 = Integer.parseInt(p1[1]);
+            int x2 = Integer.parseInt(p1[0]);
+            int y2 = (dig2/2)+Integer.parseInt(p1[1]);
+
+            panel.drawLine(250+x1, 250-y1, 250+x2, 250-y2);
+            int x3 = -(dig1/2)+Integer.parseInt(p1[0]);
+            int y3 = Integer.parseInt(p1[1]);
+            int x4 = Integer.parseInt(p1[0]);
+            int y4 = -(dig2/2)+Integer.parseInt(p1[1]);
+
+            panel.drawLine(250+x3, 250-y3, 250+x4, 250-y4);
+            int x5 = -(dig1/2)+Integer.parseInt(p1[0]);
+            int y5 = Integer.parseInt(p1[1]);
+            int x6 = Integer.parseInt(p1[0]);
+            int y6 = (dig2/2)+Integer.parseInt(p1[1]);
+
+            panel.drawLine(250+x5, 250-y5, 250+x6, 250-y6);
+            int x7 = (dig1/2)+Integer.parseInt(p1[0]);
+            int y7 = Integer.parseInt(p1[1]);
+            int x8 = Integer.parseInt(p1[0]);
+            int y8 = -(dig2/2)+Integer.parseInt(p1[1]);
+
+            panel.drawLine(250+x7, 250-y7, 250+x8, 250-y8);
+            double area = (dig1*dig2)/2;
+            JOptionPane.showMessageDialog(this, "El area es: "+area);
+            
+        }catch(Exception e){
+            JOptionPane.showMessageDialog(this, e);
+        }
+    }//GEN-LAST:event_jButton20ActionPerformed
+    //repetir rombo
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        Graphics panel = jPanel1.getGraphics();
+        try{
+            String [] colores = {"Rojo", "Azul", "Amarillo"};
+            String diagonal1 = JOptionPane.showInputDialog(this,"Ingrese diagonal 1");
+            String diagonal2 = JOptionPane.showInputDialog(this,"Ingrese diagonal 2"); 
+            String repeticion = JOptionPane.showInputDialog(this, "Ingrese las veces para repetir");            
+            
+            int color = JOptionPane.showOptionDialog(this, "Eligue un color", "Elige--", 0, JOptionPane.QUESTION_MESSAGE, null, colores, EXIT_ON_CLOSE);
+            int rep = Integer.parseInt(repeticion);
+            switch(color){
+                case 0:
+                    panel.setColor(Color.red);
+                break;
+                case 1:
+                    panel.setColor(Color.BLUE);
+                break;
+                case 2:
+                    panel.setColor(Color.yellow);
+                break;
+            }
+            int mas1 = 0;
+            int mas2 = 0;
+            int dig1 = Integer.parseInt(diagonal1);
+            int dig2 = Integer.parseInt(diagonal2);
+            int diag1 = dig1/2;
+            int diag2 = dig2/2;
+            for(int i = 0; i<rep; i++){
+                mas1+=diag1;
+                mas2+=diag2;
+            int x1 = mas1;
+            int y1 = 0;
+            int x2 = 0;
+            int y2 = mas2;
+
+            panel.drawLine(250+x1, 250-y1, 250+x2, 250-y2);
+            int x3 = -(mas1);
+            int y3 = 0;
+            int x4 = 0;
+            int y4 = -(mas2);
+
+            panel.drawLine(250+x3, 250-y3, 250+x4, 250-y4);
+            int x5 = -(mas1);
+            int y5 = 0;
+            int x6 = 0;
+            int y6 = (mas2);
+
+            panel.drawLine(250+x5, 250-y5, 250+x6, 250-y6);
+            int x7 = (mas1);
+            int y7 = 0;
+            int x8 = 0;
+            int y8 = -(mas2);
+            panel.drawLine(250+x7, 250-y7, 250+x8, 250-y8);
+            }
+        }catch(Exception e){
+            JOptionPane.showMessageDialog(this, e);
+        }
+    }//GEN-LAST:event_jButton21ActionPerformed
 
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
